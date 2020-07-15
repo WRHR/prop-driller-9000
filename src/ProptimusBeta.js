@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ProptimusOmega extends React.Component {
+export default class ProptimusBeta extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -15,7 +15,7 @@ export default class ProptimusOmega extends React.Component {
           src={this.props.img}
           className="App-logo"
           alt="logo"
-          onClick={this.props.callForBetterHelp}
+          onClick={this.props.gimmeAllYouGot}
         />
         <p>{this.props.catchPhrase}</p>
       </section>

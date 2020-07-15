@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default class ProptimusOmega extends React.Component {
+export default class ProptimusPrime extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      escalate: false,
+      escalate: true,
     }
   }
 
@@ -15,7 +15,7 @@ export default class ProptimusOmega extends React.Component {
           src={this.props.img}
           className="App-logo"
           alt="logo"
-          onClick={this.props.callForBetterHelp}
+          onClick={this.props.sendThemHome}
         />
         <p>{this.props.catchPhrase}</p>
       </section>
